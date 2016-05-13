@@ -1,0 +1,164 @@
+[12/05/2016 20:27] ERROR red <module> 383: Traceback (most recent call last):
+  File "red.py", line 373, in <module>
+    loop.run_until_complete(main())
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 325, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 295, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 1218, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.5/selectors.py", line 432, in select
+    fd_event_list = self._epoll.poll(timeout, max_ev)
+KeyboardInterrupt
+
+[12/05/2016 20:30] ERROR red <module> 383: Traceback (most recent call last):
+  File "red.py", line 373, in <module>
+    loop.run_until_complete(main())
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 325, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 295, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 1218, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.5/selectors.py", line 432, in select
+    fd_event_list = self._epoll.poll(timeout, max_ev)
+KeyboardInterrupt
+
+[12/05/2016 20:34] ERROR red <module> 383: Traceback (most recent call last):
+  File "red.py", line 373, in <module>
+    loop.run_until_complete(main())
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 325, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 295, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 1218, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.5/selectors.py", line 432, in select
+    fd_event_list = self._epoll.poll(timeout, max_ev)
+KeyboardInterrupt
+
+[12/05/2016 20:37] ERROR red <module> 383: Traceback (most recent call last):
+  File "red.py", line 373, in <module>
+    loop.run_until_complete(main())
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 325, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 295, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 1218, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.5/selectors.py", line 432, in select
+    fd_event_list = self._epoll.poll(timeout, max_ev)
+KeyboardInterrupt
+
+[12/05/2016 20:38] ERROR red <module> 383: Traceback (most recent call last):
+  File "red.py", line 373, in <module>
+    loop.run_until_complete(main())
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 325, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 295, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 1218, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.5/selectors.py", line 432, in select
+    fd_event_list = self._epoll.poll(timeout, max_ev)
+KeyboardInterrupt
+
+[12/05/2016 20:39] DEBUG audio disconnect_timer 1417: putting sid 177872547315056640 in stop loop, no player
+[12/05/2016 20:39] DEBUG audio queue_manager 1488: not playing anything on sid 177872547315056640, attempting to start a new song.
+[12/05/2016 20:39] DEBUG audio queue_manager 1495: calling _play on the normal queue
+[12/05/2016 20:39] DEBUG audio _play 609: starting to play on "Animus"
+[12/05/2016 20:39] DEBUG audio _guarantee_downloaded 410: sid 177872547315056640 not in downloaders, making one
+[12/05/2016 20:39] DEBUG audio _guarantee_downloaded 422: starting our downloader for sid 177872547315056640
+[12/05/2016 20:39] DEBUG audio _guarantee_downloaded 431: sid 177872547315056640 wants to play songid f9O2Rjn1azc
+[12/05/2016 20:39] DEBUG audio _guarantee_downloaded 436: cache miss on song id f9O2Rjn1azc
+[12/05/2016 20:39] DEBUG audio _create_ffmpeg_player 294: reconnect chan id for sid 177872547315056640 is wrong, fixing
+[12/05/2016 20:39] DEBUG audio _create_ffmpeg_player 313: making player on sid 177872547315056640
+[12/05/2016 20:39] DEBUG audio _play 626: starting player on sid 177872547315056640
+[12/05/2016 20:39] DEBUG audio queue_manager 1503: set now_playing for sid 177872547315056640
+[12/05/2016 20:40] DEBUG audio disconnect_timer 1425: putting sid 177872547315056640 in stop loop
+[12/05/2016 20:40] DEBUG audio queue_manager 1488: not playing anything on sid 177872547315056640, attempting to start a new song.
+[12/05/2016 20:40] DEBUG audio queue_manager 1495: calling _play on the normal queue
+[12/05/2016 20:40] DEBUG audio _play 609: starting to play on "Animus"
+[12/05/2016 20:40] DEBUG audio _guarantee_downloaded 416: sid 177872547315056640 in downloaders but wrong url
+[12/05/2016 20:40] DEBUG audio _guarantee_downloaded 422: starting our downloader for sid 177872547315056640
+[12/05/2016 20:40] DEBUG audio _guarantee_downloaded 431: sid 177872547315056640 wants to play songid o8p_dQMsW4Q
+[12/05/2016 20:40] DEBUG audio _guarantee_downloaded 436: cache miss on song id o8p_dQMsW4Q
+[12/05/2016 20:40] DEBUG audio _create_ffmpeg_player 313: making player on sid 177872547315056640
+[12/05/2016 20:40] DEBUG audio _play 626: starting player on sid 177872547315056640
+[12/05/2016 20:40] DEBUG audio queue_manager 1503: set now_playing for sid 177872547315056640
+[12/05/2016 20:42] ERROR red <module> 393: Traceback (most recent call last):
+  File "red.py", line 383, in <module>
+    loop.run_until_complete(main())
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 325, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 295, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 1218, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.5/selectors.py", line 432, in select
+    fd_event_list = self._epoll.poll(timeout, max_ev)
+KeyboardInterrupt
+
+[12/05/2016 20:42] ERROR red <module> 393: Traceback (most recent call last):
+  File "red.py", line 383, in <module>
+    loop.run_until_complete(main())
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 325, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 295, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 1218, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.5/selectors.py", line 432, in select
+    fd_event_list = self._epoll.poll(timeout, max_ev)
+KeyboardInterrupt
+
+[12/05/2016 20:44] ERROR red <module> 393: Traceback (most recent call last):
+  File "red.py", line 383, in <module>
+    loop.run_until_complete(main())
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 325, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 295, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 1218, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.5/selectors.py", line 432, in select
+    fd_event_list = self._epoll.poll(timeout, max_ev)
+KeyboardInterrupt
+
+[12/05/2016 20:50] ERROR red <module> 393: Traceback (most recent call last):
+  File "red.py", line 383, in <module>
+    loop.run_until_complete(main())
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 325, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 295, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 1218, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.5/selectors.py", line 432, in select
+    fd_event_list = self._epoll.poll(timeout, max_ev)
+KeyboardInterrupt
+
+[12/05/2016 20:52] DEBUG audio queue_manager 1488: not playing anything on sid 177872547315056640, attempting to start a new song.
+[12/05/2016 20:52] DEBUG audio queue_manager 1495: calling _play on the normal queue
+[12/05/2016 20:52] DEBUG audio _play 609: starting to play on "Animus"
+[12/05/2016 20:52] DEBUG audio _guarantee_downloaded 410: sid 177872547315056640 not in downloaders, making one
+[12/05/2016 20:52] DEBUG audio _guarantee_downloaded 422: starting our downloader for sid 177872547315056640
+[12/05/2016 20:52] DEBUG audio _guarantee_downloaded 431: sid 177872547315056640 wants to play songid o0GANShhxpM
+[12/05/2016 20:52] DEBUG audio _guarantee_downloaded 436: cache miss on song id o0GANShhxpM
+[12/05/2016 20:52] DEBUG audio _create_ffmpeg_player 294: reconnect chan id for sid 177872547315056640 is wrong, fixing
+[12/05/2016 20:52] DEBUG audio _create_ffmpeg_player 313: making player on sid 177872547315056640
+[12/05/2016 20:52] DEBUG audio _play 626: starting player on sid 177872547315056640
+[12/05/2016 20:52] DEBUG audio queue_manager 1503: set now_playing for sid 177872547315056640
+[12/05/2016 20:54] DEBUG audio queue_manager 1488: not playing anything on sid 177872547315056640, attempting to start a new song.
+[12/05/2016 20:54] DEBUG audio queue_manager 1495: calling _play on the normal queue
+[12/05/2016 20:54] DEBUG audio _play 609: starting to play on "Animus"
+[12/05/2016 20:54] DEBUG audio _guarantee_downloaded 410: sid 177872547315056640 not in downloaders, making one
+[12/05/2016 20:54] DEBUG audio _guarantee_downloaded 422: starting our downloader for sid 177872547315056640
+[12/05/2016 20:54] DEBUG audio disconnect_timer 1417: putting sid 177872547315056640 in stop loop, no player
+[12/05/2016 20:54] DEBUG audio _guarantee_downloaded 431: sid 177872547315056640 wants to play songid FYcx9tsvYbo
+[12/05/2016 20:54] DEBUG audio _guarantee_downloaded 436: cache miss on song id FYcx9tsvYbo
+[12/05/2016 20:54] DEBUG audio _create_ffmpeg_player 313: making player on sid 177872547315056640
+[12/05/2016 20:54] DEBUG audio _play 626: starting player on sid 177872547315056640
+[12/05/2016 20:54] DEBUG audio queue_manager 1503: set now_playing for sid 177872547315056640
+[12/05/2016 21:01] DEBUG audio disconnect_timer 1425: putting sid 177872547315056640 in stop loop
+[12/05/2016 21:06] DEBUG audio disconnect_timer 1434: dcing from sid 177872547315056640 after 300s

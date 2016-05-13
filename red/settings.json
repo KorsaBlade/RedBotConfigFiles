@@ -1,0 +1,13 @@
+{
+    "EMAIL" : "MTgwNDQ1MDE3MDkxOTk3Njk3.ChatCg.0cM0-Rc-Un6xcfpOJwBbkHphX94",
+    "LOGIN_TYPE" : "token",
+    "OWNER" : "177117739729682432",
+    "PASSWORD" : "",
+    "PREFIXES" : [
+        "!"
+    ],
+    "default" : {
+        "ADMIN_ROLE" : "Administrator",
+        "MOD_ROLE" : "Moderator"
+    }
+}
